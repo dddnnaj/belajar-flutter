@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:dadan_flutter_rpl3/latihan/latihan4.dart';
+import 'package:dadan_flutter_rpl3/latihan/latihan5.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,10 +14,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Pokoknya Ini'),
+          title: Text('Galeri'),
           backgroundColor: const Color.fromARGB(255, 252, 250, 250),
         ),
-        body: Latihan4(),
+        body: Latihan5(),
       ),
     );
   }
